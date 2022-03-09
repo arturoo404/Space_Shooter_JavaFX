@@ -1,0 +1,43 @@
+.root{
+-fx-background-color: #27496D;
+}
+.button{
+-fx-box-shadow:inset 0px -3px 7px 0px #29bbff;
+-fx-background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+-fx-background-color:#0C7B93;
+-fx-border-radius:3px;
+-fx-display:inline-block;
+-fx-cursor:pointer;
+-fx-color:#000000;
+-fx-font-family:Arial;
+-fx-font-size:25px;
+-fx-padding:9px 23px;
+-fx-text-decoration:none;
+}
+
+.button: hover{
+-fx-box-shadow:inset 0px -3px 7px 0px #29bbff;
+-fx-background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+-fx-background-color: #00A8CC;
+-fx-border-radius:3px;
+-fx-display:inline-block;
+-fx-cursor:pointer;
+-fx-color:#000000;
+-fx-font-family:Arial;
+-fx-font-size:25px;
+-fx-padding:9px 23px;
+-fx-text-decoration:none;
+}
+
+.label{
+-fx-font-size: 32;
+-fx-font-family:Arial;
+-fx-text-fill: #ffffff;
+}
+
+#gameScr{
+-fx-background-image:url("https://wallpapercave.com/w/wp5480951"), url("background/spaceLvl1.jpg");
+-fx-background-repeat: no-repeat;
+-fx-background-size:1000 800;
+-fx-background-position: center center;
+}

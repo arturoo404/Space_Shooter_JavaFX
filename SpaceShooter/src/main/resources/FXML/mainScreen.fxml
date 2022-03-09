@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" stylesheets="@../windowStyle/windowStyle.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainScreen">
+   <children>
+      <Button fx:id="blueFx" layoutX="150.0" layoutY="301.0" mnemonicParsing="false" onAction="#buttonBlue" prefHeight="250.0" prefWidth="250.0" />
+      <Button fx:id="redFx" layoutX="475.0" layoutY="301.0" mnemonicParsing="false" onAction="#buttonRed" prefHeight="250.0" prefWidth="250.0" />
+      <Button fx:id="greenFx" layoutX="800.0" layoutY="301.0" mnemonicParsing="false" onAction="#buttonGreen" prefHeight="250.0" prefWidth="250.0" />
+      <RadioButton fx:id="radioBlue" layoutX="258.0" layoutY="581.0" mnemonicParsing="false">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioRed" layoutX="583.0" layoutY="581.0" mnemonicParsing="false">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="radioGreen" layoutX="908.0" layoutY="581.0" mnemonicParsing="false">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="startGameFx" layoutX="475.0" layoutY="143.0" mnemonicParsing="false" onAction="#startGame" prefHeight="80.0" prefWidth="250.0" text="START" />
+      <Button layoutX="475.0" layoutY="698.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="80.0" prefWidth="250.0" text="EXIT" />
+      <Label fx:id="labelSelect" alignment="CENTER" layoutX="350.0" layoutY="35.0" prefHeight="80.0" prefWidth="500.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

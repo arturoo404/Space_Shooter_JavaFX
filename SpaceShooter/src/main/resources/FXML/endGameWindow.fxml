@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@../windowStyle/windowStyle.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EndGameWindow">
+   <children>
+      <Button layoutX="250.0" layoutY="445.0" mnemonicParsing="false" onAction="#playAgain" prefHeight="80.0" prefWidth="300.0" text="Play Again" />
+      <Label fx:id="scoreLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="144.0" prefHeight="80.0" prefWidth="500.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
